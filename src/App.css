@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+*,*:before,*:after {
+  box-sizing: border-box;
+}
+
+input, textarea, select, button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label, button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  padding: 25px;
+  margin: 25px;
+}
+
+.thumnal {
+  height: 200px;
+  width: 100%;
+  border-radius: 5%;
+}
+
+.footer {
+  display: flex;
+  margin: 10px 5px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+}
+
+.infor {
+  max-width: 90%;
+  font-size: 12px;
+}
