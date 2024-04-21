@@ -1,0 +1,11 @@
+import { css } from 'styled-components';
+
+export const GlobalClasses = css`
+    :root{
+        --blue: "#2979ff"
+    }
+    @import url("https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;700&display=swap");
+    body {
+        font-family: "Poppins", sans-serif;
+    }
+`;
